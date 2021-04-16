@@ -8,7 +8,8 @@ Automates doxygen document generation for mongodb
 
 # Build documentation
 ```
-$ cmake -B ./build && cd ./build && make
+$ mkdir ./build
+$ cd ./build && cmake .. && make
 ```
 or just
 ```

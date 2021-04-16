@@ -1,3 +1,4 @@
 #!/bin/sh
 
-cmake -B ./build && cd ./build && make
+mkdir ./build
+cd ./build && cmake .. && make
