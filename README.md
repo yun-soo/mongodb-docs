@@ -18,3 +18,36 @@ or just
 
 # Documentation directory
 ./build/docs/html
+start with ./build/docs/html/index.html
+
+# Where to find MongoDB source
+1. The environment variable $MONGODB_ROOT
+2. ~/mongo
+3. https://github.com/mongodb/mongo
+
+# What are documented and what features are included
+1. All public/protected/private members
+2. All namespaces includig anonymous namespaces
+3. C/C++ source code and *.md below following directories
+   - mongo/src/mongo/base
+   - mongo/src/mongo/bson
+   - mongo/src/mongo/crypto
+   - mongo/src/mongo/db
+   - mongo/src/mongo/dbtests
+   - mongo/src/mongo/embedded
+   - mongo/src/mongo/executor
+   - mongo/src/mongo/idl
+   - mongo/src/mongo/logv2
+   - mongo/src/mongo/platform
+   - mongo/src/mongo/rpc
+   - mongo/src/mongo/s
+   - mongo/src/mongo/stdx
+   - mongo/src/mongo/transport
+   - mongo/src/mongo/unittest
+   - mongo/src/mongo/util
+4. *.md below mongo/docs
+5. Source browser
+6. Symbol & file search
+7. Inheritance diagram & collaboration diagram
+8. Include dependency diagram
+9. Interactive diagram through SVG
