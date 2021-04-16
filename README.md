@@ -50,3 +50,7 @@ start with ./build/docs/html/index.html
 7. Inheritance diagram & collaboration diagram
 8. Include dependency diagram
 9. Interactive diagram through SVG
+
+# Supported platforms for build
+1. Ubuntu 18.04
+2. Homebrew on MacOS X Catalina
