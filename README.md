@@ -2,9 +2,9 @@
 Automates doxygen document generation for mongodb
 
 # Prerequisites
-1. cmake
-2. doxygen
-3. graphviz
+1. cmake >= 3.8.0
+2. doxygen >= 1.8.13
+3. graphviz >= 2.40.1
 
 # Build documentation
 ```
