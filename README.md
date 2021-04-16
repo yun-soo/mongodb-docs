@@ -17,7 +17,6 @@ or just
 ```
 
 # Documentation directory
-./build/docs/html
 start with ./build/docs/html/index.html
 
 # Where to find MongoDB source
